@@ -90,6 +90,11 @@ inoremap <silent> <C-S>         <C-O>:update<CR>
 EOF
 }
 
+setup_java()
+{
+    sudo $APT install -y openjdk-8-jdk
+}
+
 
 setup_pycharm()
 {
